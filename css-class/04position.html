@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .green {
-        background-color: green;
-        padding: 5px;
-        display: block;
-      }
-      .pink {
-        background-color: pink;
-        padding: 5px;
-        display: block;
-      }
-      .maroon {
-        background-color: maroon;
-        padding: 5px;
-        display: block;
-      }
-      .orange {
-        background-color: orange;
-        padding: 5px;
-        display: block;
-      }
-      .big {
-      }
-      .one {
-      }
-      .two {
-      }
-      .three {
-      }
-    </style>
-  </head>
-  <body>
-    <div class="big orange">
-      Big
-      <div class="one green">One</div>
-      <div class="two pink">Two</div>
-      <div class="three maroon">Three</div>
-    </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+        .green {
+            background-color: rgb(93, 192, 93);
+            padding: 5px;
+            display: block;
+        }
 
-    <div>
-      <p>static is default</p>
-      <p>Relative - you can set: Top, bottom, left and right</p>
-      <p>
-        absolute - you can set: Top, bottom, left and right (depends on parent,
-        removed from DOM)
-      </p>
-      <p>Fixed - you can set: Top, bottom, left and right</p>
-    </div>
-  </body>
-</html>
+        .pink {
+            background-color: rgb(228, 162, 173);
+            padding: 5px;
+            display: block;
+        }
+        .maroon {
+            background-color: rgb(155, 130, 214);
+            padding: 5px;
+            display: block;
+        }
+        .orange {
+            background-color: orange;
+            padding: 5px;
+            display: block;
+        }
+        .parent {
+            height: 200vh;
+        }
+
+        .one {
+
+        }
+        .two {
+        }
+
+        .three {
+
+        }
+
+        .hell.heck {
+            background-color: #fff;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="parent orange">
+            Parent
+            <div class="hell heck" id="hell">One</div>
+            <div class="two pink" id="hell">Two</div>
+            <div class="three maroon" id="hell">Three</div>
+        </div>
+    </body>
+    </html>
