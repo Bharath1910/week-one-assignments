@@ -10,7 +10,36 @@
 
 .top .logo-details {
     flex: 4;
-    
+}
+
+.top .logo-details > * {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+/* .link_name {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+} */
+
+.link_name {
+    color: #FFFFFF;
+    font-size: 25px;
+    position: relative;
+
+}
+
+.link_name::after {
+    content: '';
+    height: 2px;
+    width: 40px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .top .media-icons {
@@ -20,7 +49,7 @@
 
 .link-boxes {
     display: flex;
-    padding: 0 40px;
+    padding: 0 40px 40px 40px;
 }
 
 .link-boxes > * {
@@ -66,5 +95,52 @@ a {
 
 .content {
     background-color: #140A5C;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-box li input {
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    border: solid #FFFFFF;
+    background-color: #140A5C;
+    color:#140A5C;
+}
+
+.sub-button {
+    background-color: #FFFFFF !important;
+}
+
+.input-box li input::placeholder {
+    color: #FFFFFF;
+}
+
+.copyright_text {
+    color: #FFFFFF;
+}
+
+.fb {
+    background-color: #4267B2;
+}
+
+.twi {
+    background-color: #1EA1F2;
+}
+
+.ins {
+    background-color: #E12F6D;
+}
+
+.linkedin {
+    background-color: #0277B5;
+}
+
+.yt {
+    background-color: #FF0402;
 }
 
