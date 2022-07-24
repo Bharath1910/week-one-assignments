@@ -48,14 +48,15 @@ html {
 
     padding: 10px 10px;
     border-radius: 5px;
-    border-color: #000000;
+    border: solid 1px #000000;
     
     font-size: 20px;
 }
 
 .submit {
-    border: none;
+    border: none !important;
     background-color: #1D90FF;
+
     color: #fff;
     padding: 5px;
 }
